@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,12 +6,35 @@
 
 
 body{
-    background-color: white;
+    background-color: #F2EFED;
 }
-
+h1,h2,h3,h4,h5,h6{
+    color: #240B03;
+    font-family: "Overpass", serif;
+    font-weight: bold;
+}
+p{
+    font-family: "Mulish",serif;
+    color: #554637;
+}
+.theme-bg-color-light{
+    background-color: #F2EFED;
+}
+.theme-text-col-dark{
+    color: #240B03;
+}
+.theme-text-col-lite{
+    color: #554637;
+}
+.font-overpass{
+    font-family: "Overpass", serif;
+}
+.font-mulish{
+    font-family: "Mulish",serif;
+}
 .mynav{
     position: fixed;
-    background: white;
+    background: transparent;
     color: black;
     height: 100px;
     z-index: 1000;
@@ -24,7 +46,6 @@ body{
 }
 
 .hero-bg{
-  margin-top:100px;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -37,36 +58,34 @@ body{
     right: 0;
     background-color: rgb(8 8 9 / 42%);
 }
-.hero-bg-img{
-    position: absolute;
-    top: 0;
-    left:0;
-    bottom: 0%;
-    right: 0;
-
-}
 .hero-bg .overlay-content{
     position: absolute;
     width: 40%;
     min-width: 250px;
-    top: 0;
-    right: 0;
-    background-color: rgb(56 56 56 / 45%);
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(138 103 66 / 27%);
     padding: 20px 15px 25px;
     overflow-x: hidden;
-    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
     
 }
 .hero-heading{
-
     font-size: 50px;
     font-family: 'Concert One', sans-serif;
-
 }
-
+.theme-btn{
+    background-color: #C7985C;
+    color: #fff;
+}
+.theme-btn:hover{
+    background-color: #fff;
+    color: #C7985C;
+}
 .room-showcase .block{
     height: 400px;
 }
