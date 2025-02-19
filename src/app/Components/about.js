@@ -19,7 +19,7 @@ export default function About(){
                 <p className='text-lg mb-4 font-semibold'>Experience the Best of Nature and Comfort</p>
                 <ul className='ml-2 text-base list-disc pr-0 md:pr-20 font-mulish theme-text-col-lite'>
                     <li className='py-2'>Our thermally efficient mud, wood, and stone structure blends seamlessly into the natural surroundings.</li>
-                    <li className='py-2'>Unwind in our peaceful location, nestled amidst nature's splendor.</li>
+                    <li className='py-2'>Unwind in our peaceful location, nestled amidst nature&apos;s splendor.</li>
                     <li className='py-2'>Wake up to stunning mountain views that will leave you spellbound.</li>
                     <li className='py-2'> Relax and socialize in our traditional common area, complete with recreational activities.</li>
                     <li className='py-2'>Choose from a variety of room options, including private and hostel rooms, to suit your needs.</li>

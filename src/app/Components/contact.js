@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Button from '../Widgets/button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faInstagram,faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact(){
 
