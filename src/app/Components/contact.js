@@ -13,7 +13,7 @@ export default function Contact(){
 
         <p className='theme-text-col-dark text-lg mt-4 mb-2'>Contact Information:</p>
         <p className='theme-text-col-lite text-md'>Mobile : <Link href= 'https://wa.me/+919871986330?text=Hello,%20can%20I%20get%20more%20info%20about%20your%20homestay?'>9871986330</Link> , 
-        <Link href= 'https://wa.me/+919910859765?text=Hello,%20can%20I%20get%20more%20info%20about%20your%20homestay?'>9910859765</Link></p>
+        <Link href= 'https://wa.me/+919910859297?text=Hello,%20can%20I%20get%20more%20info%20about%20your%20homestay?'>9910859297</Link></p>
         <p><Link href= 'mailto:pahadibasera@gmail.com' className='theme-text-col-lite text-md link'>Email : pahadibasera@gmail.com</Link></p>
         <p className='theme-text-col-dark text-lg mt-4 mb-2'>Social Links:</p>
         
