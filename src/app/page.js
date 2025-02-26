@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="z-10  w-full font-mono text-sm lg:flex">
+        {/* <Navbar/> */}
         <Hero/>
-        <Navbar/>
       </div>
       <About/>
       <Rooms/>
