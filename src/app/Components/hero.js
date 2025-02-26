@@ -2,10 +2,12 @@
 
 import Image from 'next/image'
 import Button from '../Widgets/button';
+import Navbar from './navbar';
 
 export default function Hero(){
 
     return(<div className="w-full hero-bg">
+        <Navbar />
         <Image
             src="/hero1.jpg"
             alt="hero image"
