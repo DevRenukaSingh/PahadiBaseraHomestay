@@ -82,12 +82,12 @@ p{
     font-family: 'Concert One', sans-serif;
 }
 .theme-btn{
-    background-color: #C7985C;
+    background-color: #240B03;
     color: #fff;
 }
 .theme-btn:hover{
     background-color: #fff;
-    color: #C7985C;
+    color: #240B03;
 }
 .room-showcase .block{
     height: 400px;

@@ -5,9 +5,9 @@ import { useState } from "react";
 
 export default function Rooms(){
     const roomTypes=[
-        {id:1,title:'Private room with attached washroom', url:'/bedroom1.jpg'},
-        {id:2,title:'Private room with shared washroom', url:'/economyroom.jpg'},
-        {id:3,title:'Hostel room with shared washroom', url:'/hostelroom.jpg'},
+        {id:1,title:'Private room with attached washroom', url:'/bedroom1.webp'},
+        {id:2,title:'Private room with shared washroom', url:'/economyroom.webp'},
+        {id:3,title:'Hostel room with shared washroom', url:'/hostelroom.webp'},
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 

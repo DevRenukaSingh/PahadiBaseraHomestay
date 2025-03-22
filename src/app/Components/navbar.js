@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="mynav grid grid-cols-1 items-center">
         <div className='flex justify-center md:justify-start'>
             <Image
-            src="/transparent-bg-white-logo.png"
+            src="/transparent-bg-white-logo.webp"
             alt="logo"
             quality={100}
             width={60}
