@@ -1,13 +1,14 @@
 "use client";
 
-import Image from 'next/image';
 import { useState } from "react";
+import ImageSlider from "./ImageSlider";
+
 
 export default function Rooms(){
     const roomTypes=[
-        {id:1,title:'Private room with attached washroom', url:'/bedroom1.webp'},
-        {id:2,title:'Private room with shared washroom', url:'/economyroom.webp'},
-        {id:3,title:'Hostel room with shared washroom', url:'/hostelroom.webp'},
+        {id:1,title:'Private room with attached washroom', images:['/bedroom1.webp','hall.webp','hall4.webp']},
+        {id:2,title:'Private room with shared washroom', images:['/economyroom.webp','view.webp','guests1.webp']},
+        {id:3,title:'Hostel room with shared washroom', images:['/hostelroom.webp','food1.webp','food2.webp']},
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 
@@ -25,12 +26,13 @@ export default function Rooms(){
               ))} 
             </div>  
         </div>
-        <div className='grid justify-items-center align-items-center relative col-span-3 h-80 md:h-auto'>
-            <Image
-                fill
-                src={roomTypes[selectedRoom-1].url}
-                alt={roomTypes[selectedRoom-1].url}
-            />
+        <div className='grid justify-items-center align-items-center relative col-span-3 md:h-auto'>
+        <ImageSlider images={roomTypes[selectedRoom-1].images}/>
+         {/* <Image
+             fill
+            src={roomTypes[selectedRoom-1].url}
+              alt={roomTypes[selectedRoom-1].url}
+           />   */}
         </div>
        
     </div>)

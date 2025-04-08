@@ -8,7 +8,7 @@ export default function About(){
         <div className="grid grid-cols-1  md:grid-cols-2 justify-itemes-center gap-2 mt-10 mb-10">
             <div className='grid justify-items-center align-items-center'>
             <Image
-                src="/guests1.webp"
+                src="/hero1.webp"
                 alt="About image"
                 width={500}
                 height={600}
