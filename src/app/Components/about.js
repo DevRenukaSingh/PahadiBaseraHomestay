@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 export default function About(){
 
-    return(<div className="w-full grid pt-10 pb-20 px-10 md:px-20  theme-bg-color-light theme-text-color text-center">
-        <h2 className="text-2xl md:text-4xl mb-5 md:mb-10">Our Homestay</h2>
+    return(<div className="w-full grid pt-10 pb-20 px-10 md:px-20  theme-bg-color-light theme-text-color justify-items-center">
+        <h2 className="text-2xl md:text-4xl mb-5 md:mb-10 section-heading partial-border">Our Homestay</h2>
         <p className="text-base text-center theme-text-col-lite font-semibold">Our 80-year-old homestay offers a unique blend of traditional charm and modern comforts, set amidst a picturesque apple and plum orchard</p>
         <div className="grid grid-cols-1  md:grid-cols-2 justify-itemes-center gap-2 mt-10 mb-10">
             <div className='grid justify-items-center align-items-center'>
             <Image
-                src="/hero1.webp"
+                src="/house_front.webp"
                 alt="About image"
                 width={500}
                 height={600}

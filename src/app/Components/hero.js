@@ -9,11 +9,11 @@ export default function Hero(){
     return(<div className="w-full hero-bg">
         <Navbar />
         <Image
-            src="/guests1.webp"
+            src="/guests.webp"
             alt="hero image"
             quality={100}
             layout="fill"
-            style={{ objectFit:'fill',}}
+            style={{ objectFit:'cover',}}
         />
         {/* <div className='overlay'/>  */}
         <div className='overlay-content text-center'>
