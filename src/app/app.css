@@ -21,10 +21,19 @@ p{
     background-color: #F2EFED;
 }
 .theme-text-col-dark{
-    color: #240B03;
+    color: #563B25;
 }
 .theme-text-col-lite{
-    color: #554637;
+    color: #5F4129;
+}
+.theme-color-primary{
+    color: rgba(225, 155, 95);
+}
+.theme-color-complementary{
+    color: rgba(95, 164, 225)
+}
+.theme-border-color{
+    border-color: rgba(95, 164, 225) ;
 }
 .font-overpass{
     font-family: "Overpass", serif;
@@ -68,7 +77,7 @@ p{
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(138 103 66 / 27%);
+    background-color: rgba(86, 59, 37, .5);
     padding: 20px 15px 25px;
     overflow-x: hidden;
     display: flex;
@@ -82,12 +91,12 @@ p{
     font-family: 'Concert One', sans-serif;
 }
 .theme-btn{
-    background-color: #240B03;
+    background-color: rgba(95, 164, 225, .8);
     color: #fff;
 }
 .theme-btn:hover{
     background-color: #fff;
-    color: #240B03;
+    color: rgba(95, 164, 225, .8)
 }
 .room-showcase .block{
     height: 400px;
@@ -99,6 +108,19 @@ p{
     height: 200px;
     padding-top: 80px;
 }
+.section-heading{
+    position: relative;
+    width: fit-content;
+}
+.partial-border::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left:0;
+    width: 15%; /* adjust the width to control the partial border */
+    height: 4px;
+    background-color: rgba(95, 164, 225) ;
+  }
 
 @media only screen and (max-width: 600px) {
     .hero-bg{
