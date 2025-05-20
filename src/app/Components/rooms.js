@@ -6,9 +6,9 @@ import ImageSlider from "./ImageSlider";
 
 export default function Rooms(){
     const roomTypes=[
-        {id:1,title:'Private room with attached washroom', images:['/bedroom1.webp','private_washroom1.webp','private_washroom2.webp']},
-        {id:2,title:'Private room with shared washroom', images:['/economyroom.webp','private_washroom1.webp','hall1.webp']},
-        {id:3,title:'Hostel room with shared washroom', images:['/hostelroom.webp','private_washroom2.webp','hostelroom2.webp']},
+        {id:1,title:'Private room with attached washroom', images:['/bedroom1.webp','roomwindow.webp','private_washroom2.webp']},
+        {id:2,title:'Private room with shared washroom', images:['/economyroom.webp','economyroom1.jpg','commonwashroom.webp']},
+        {id:3,title:'Hostel room with shared washroom', images:['/hostelroom.webp','hostelroom2.webp','commonwashroom.webp']},
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 
@@ -28,11 +28,6 @@ export default function Rooms(){
         </div>
         <div className='grid justify-items-center align-items-center relative col-span-3 md:h-auto'>
         <ImageSlider images={roomTypes[selectedRoom-1].images}/>
-         {/* <Image
-             fill
-            src={roomTypes[selectedRoom-1].url}
-              alt={roomTypes[selectedRoom-1].url}
-           />   */}
         </div>
        
     </div>)

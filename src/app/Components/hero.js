@@ -9,7 +9,7 @@ export default function Hero(){
     return(<div className="w-full hero-bg">
         <Navbar />
         <Image
-            src="/guests.webp"
+            src="/home.webp"
             alt="hero image"
             quality={100}
             layout="fill"
