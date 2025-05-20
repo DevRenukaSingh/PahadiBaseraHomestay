@@ -77,7 +77,7 @@ p{
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(86, 59, 37, .5);
+    background-color: rgb(67 65 12 / 40%);
     padding: 20px 15px 25px;
     overflow-x: hidden;
     display: flex;
