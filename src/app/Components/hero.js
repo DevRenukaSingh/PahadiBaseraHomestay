@@ -11,7 +11,7 @@ export default function Hero(){
         <Image
             src="/home.webp"
             alt="hero image"
-            quality={100}
+            quality={[50,75]}
             layout="fill"
             style={{ objectFit:'cover',}}
         />
