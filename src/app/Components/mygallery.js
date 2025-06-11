@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from 'react-18-image-lightbox';
 import "react-18-image-lightbox/style.css";
-import { images } from "../Utils/galleryImages";
+import { images } from "../../Utils/galleryImages";
 
 export default function MyGallery() {
   const [index, setIndex] = useState(-1);
