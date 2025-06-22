@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-XGMB6VZQLK');
+          gtag('config', 'G-ECTL0ZQ1BE');
         `}
       </Script>
       <body className={inter.className}>
