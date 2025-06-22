@@ -6,9 +6,9 @@ import ImageSlider from "./ImageSlider";
 
 export default function Rooms(){
     const roomTypes=[
-        {id:1,title:'Private room with attached washroom', images:['/bedroom1.webp','roomwindow.webp','private_washroom2.webp']},
-        {id:2,title:'Private room with shared washroom', images:['/economyroom.webp','economyroom1.jpg','commonwashroom.webp']},
-        {id:3,title:'Hostel room with shared washroom', images:['/hostelroom.webp','hostelroom2.webp','commonwashroom.webp']},
+        {id:1,title:'Private room with attached washroom', images:['/mudhouse-bedroom.webp','roomwindow.webp','private_washroom2.webp']},
+        {id:2,title:'Private room with shared washroom', images:['/mudhouse-privateroom.webp','homestay-privateroom.jpg','homestay-washroom.webp']},
+        {id:3,title:'Hostel room with shared washroom', images:['/hostelroom.webp','hostelroom2.webp','homestay-washroom.webp']},
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 
