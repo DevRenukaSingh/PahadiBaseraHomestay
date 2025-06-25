@@ -8,7 +8,7 @@ export default function Contact(){
 
     return(<div className="w-full grid pt-10 pb-20  px-20 md:px-80  theme-bg-color-light theme-text-color text-center grid grid-rows justify-items-center">
         <h2 className="text-4xl mb-2 section-heading partial-border">Book Your Stay With Us</h2>
-        <p className="text-base text-center theme-text-col-lite font-semibold mb-6">Experience the warmth and hospitality of our heritage homestay</p>
+        <p className="text-base text-center theme-text-col-lite font-semibold mb-6 pb-5">Feel the warmth of a Kathkuni homestay — reach out to plan your stay.</p>
         <BookingForm />
         <div>
             <p className='theme-text-col-dark text-lg mt-4 mb-2'>Address:</p>
