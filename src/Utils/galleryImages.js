@@ -25,8 +25,8 @@ export const images = [
   },
  
   {
-    src: "out_evening1.webp",
-    original: `${process.env.PUBLIC_URL}/out_evening1.webp`,
+    src: "homestay-in-mountains-evening.webp",
+    original: `${process.env.PUBLIC_URL}/homestay-in-mountains-evening.webp`,
     width: 1330,
     height: 1002,
   }, 
@@ -37,8 +37,8 @@ export const images = [
     height: 1330,
   },
   {
-    src: "hostelroom2.webp",
-    original: `${process.env.PUBLIC_URL}/hostelroom2.webp`,
+    src: "dorm-room-pahadi-basera-homestay.webp",
+    original: `${process.env.PUBLIC_URL}/dorm-room-pahadi-basera-homestay.webp`,
     width: 806,
     height: 604,
   },
@@ -61,8 +61,8 @@ export const images = [
     height: 1002,
   },
   {
-    src: "outside1.webp",
-    original: `${process.env.PUBLIC_URL}/outside1.webp`,
+    src: "pahadi-basera-evening-view.webp",
+    original: `${process.env.PUBLIC_URL}/pahadi-basera-evening-view.webp`,
      width: 1002,
     height: 1330,
   },
@@ -85,8 +85,8 @@ export const images = [
     height: 1330,
   },
   {
-    src: "outside3.webp",
-    original: `${process.env.PUBLIC_URL}/outside3.webp`,
+    src: "outside-view-around-pahadi-basera.webp",
+    original: `${process.env.PUBLIC_URL}/outside-view-around-pahadi-basera.webp`,
      width: 1158,
     height: 980,
   },
@@ -103,8 +103,8 @@ export const images = [
     height:1002 ,
   },
   {
-    src: "hostelroom.webp",
-    original: `${process.env.PUBLIC_URL}/hostelroom.webp`,
+    src: "kathkuni-homestay-hostel-style-room.webp",
+    original: `${process.env.PUBLIC_URL}/kathkuni-homestay-hostel-style-room.webp`,
     width: 1002,
     height:1330 ,
   },
@@ -115,21 +115,21 @@ export const images = [
     height: 1330,
   },
   {
-    src: "roomwindow.webp",
-    original: `${process.env.PUBLIC_URL}/roomwindow.webp`,
+    src: "mudhouse-private-room-window.webp",
+    original: `${process.env.PUBLIC_URL}/mudhouse-private-room-window.webp`,
     width: 1002,
     height: 1330,
   },
   
   {
-    src: "night.webp",
-    original: `${process.env.PUBLIC_URL}/night.webp`,
+    src: "guest-under-cloudy-night-sky-homestay.webp",
+    original: `${process.env.PUBLIC_URL}/guest-under-cloudy-night-sky-homestay.webp`,
     width: 1330,
     height: 1002,
   },
   {
-    src: "outside.webp",
-    original: `${process.env.PUBLIC_URL}/outside.webp`,
+    src: "guest-relaxing-in-mountain-homestay.webp",
+    original: `${process.env.PUBLIC_URL}/guest-relaxing-in-mountain-homestay.webp`,
     width: 1002,
     height: 1330,
   },
