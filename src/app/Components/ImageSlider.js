@@ -4,16 +4,10 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-// const images = [
-//   "/bedroom1.webp",
-//   "/economyroom.webp",
-//   "/hostelroom.webp",
-// ];
-
 export default function ImageSlider({images =[
-  "/bedroom1.webp",
-  "/economyroom.webp",
-  "/hostelroom.webp",
+  "/mudhouse-bedroom.webp",
+  "/mudhouse-privateroom.webp",
+  "/kathkuni-homestay-hostel-style-room.webp",
 ]}) {
   const [index, setIndex] = useState(0);
 

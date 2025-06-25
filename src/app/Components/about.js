@@ -8,8 +8,8 @@ export default function About(){
         <div className="grid grid-cols-1  md:grid-cols-2 justify-itemes-center gap-2 mt-10 mb-10">
             <div className='grid justify-items-center align-items-center'>
             <Image
-                src="/guests5.webp"
-                alt="About image"
+                src="/kids-enjoying-vacation-in-manali.webp"
+                alt="Kids enjoying vacation in manali"
                 width={500}
                 height={600}
             />

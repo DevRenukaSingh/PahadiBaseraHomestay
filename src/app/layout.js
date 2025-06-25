@@ -7,8 +7,8 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Pahadi Basera Homestay',
-  description: 'Experience the serene beauty and warm hospitality of Himachal Pradesh at our cozy homestay.',
+  title: 'Stay in a Traditional Himachali Home | Pahadi Basera',
+  description: 'Relax in a heritage Kathkuni house near Manali. Book your stay with local flavors, hill views, and a pure veg menu.',
 }
 
 export default function RootLayout({ children }) {
