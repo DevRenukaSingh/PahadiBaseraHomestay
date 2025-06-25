@@ -10,7 +10,7 @@ export default function Hero(){
         <Navbar />
         <Image
             src="/summers-in-mountainhome.webp"
-            alt="hero image"
+            alt="summers in mountain home"
             quality={[50,75]}
             layout="fill"
             style={{ objectFit:'cover',}}

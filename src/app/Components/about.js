@@ -9,7 +9,7 @@ export default function About(){
             <div className='grid justify-items-center align-items-center'>
             <Image
                 src="/kids-enjoying-vacation-in-manali.webp"
-                alt="About image"
+                alt="Kids enjoying vacation in manali"
                 width={500}
                 height={600}
             />
