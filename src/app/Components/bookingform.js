@@ -36,7 +36,7 @@ export default function BookingForm() {
 
   return (
     <div className="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg">
-      <h2 className="text-2xl font-bold mb-4 text-center">Enquire Now</h2>
+      <h3 className="text-2xl font-bold mb-4 text-center">Enquire Now</h3>
         <form onSubmit={handleSubmit} className="space-y-4 text-black" ref={formRef}>
           <input
             type="text"
@@ -77,7 +77,7 @@ export default function BookingForm() {
           />
           <button
             type="submit"
-            className="w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 transition"
+            className="w-full theme-widgets-bg-color text-white py-3 rounded-xl"
           >
             Send Inquiry
           </button>

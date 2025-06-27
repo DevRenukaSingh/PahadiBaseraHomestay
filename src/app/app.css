@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 
-
 body{
     background-color: #F2EFED;
 }
@@ -17,8 +16,15 @@ p{
     font-family: "Mulish",serif;
     color: #554637;
 }
+/* Theme css starts here */
 .theme-bg-color-light{
     background-color: #F2EFED;
+}
+.theme-widgets-bg-color{
+    background-color: #353B22 !important;
+}
+.theme-widgets-bg-color:hover{
+    background-color: #272E13 !important;
 }
 .theme-text-col-dark{
     color: #563B25;
@@ -30,11 +36,24 @@ p{
     color: rgba(225, 155, 95);
 }
 .theme-color-complementary{
-    color: rgba(95, 164, 225)
+    /* color: rgba(95, 164, 225); */
+    color: #353B22;
 }
 .theme-border-color{
-    border-color: rgba(95, 164, 225) ;
+    border-color: #353B22 ;
 }
+.theme-btn{
+    /* background-color: rgba(95, 164, 225, .8);*/
+    background-color: #353B22 !important;
+    color: #fff !important;
+}
+.theme-btn:hover{
+    background-color: #fff !important;
+    /* color: rgba(95, 164, 225, .8) */
+    color: #353B22 !important;
+}
+/* Theme css ends here */
+
 .font-overpass{
     font-family: "Overpass", serif;
 }
@@ -90,14 +109,7 @@ p{
     font-size: 50px;
     font-family: 'Concert One', sans-serif;
 }
-.theme-btn{
-    background-color: rgba(95, 164, 225, .8);
-    color: #fff;
-}
-.theme-btn:hover{
-    background-color: #fff;
-    color: rgba(95, 164, 225, .8)
-}
+
 .room-showcase .block{
     height: 400px;
 }
@@ -119,7 +131,8 @@ p{
     left:0;
     width: 15%; /* adjust the width to control the partial border */
     height: 4px;
-    background-color: rgba(95, 164, 225) ;
+    /* background-color: rgba(95, 164, 225) ; */
+    background-color: #353B22;
   }
 
 @media only screen and (max-width: 600px) {
