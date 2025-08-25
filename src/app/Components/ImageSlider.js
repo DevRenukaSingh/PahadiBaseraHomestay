@@ -4,11 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-export default function ImageSlider({images =[
-  "/mudhouse-bedroom.webp",
-  "/mudhouse-privateroom.webp",
-  "/kathkuni-homestay-hostel-style-room.webp",
-]}) {
+export default function ImageSlider({images}) {
   const [index, setIndex] = useState(0);
 
   const nextImage = () => {

@@ -6,9 +6,9 @@ import ImageSlider from "./ImageSlider";
 
 export default function Rooms(){
     const roomTypes=[
-        {id:1,title:'Private room with attached washroom', images:['/mudhouse-bedroom.webp','mudhouse-private-room-window.webp','private-bath-in-himachali-mudhouse.webp']},
-        {id:2,title:'Private room with shared washroom', images:['/mudhouse-privateroom.webp','homestay-privateroom.jpg','homestay-washroom.webp']},
-        {id:3,title:'Hostel room with shared washroom', images:['/kathkuni-homestay-hostel-style-room.webp','dorm-room-pahadi-basera-homestay.webp','homestay-washroom.webp']},
+        {id:1,title:'Private room with attached washroom', images:['https://res.cloudinary.com/db4clvkdl/image/upload/v1756136147/mudhouse-bedroom_p4z1ty.webp','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136149/mudhouse-private-room-window_racndz.webp','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136142/private-bath-in-himachali-mudhouse_uqbikm.webp']},
+        {id:2,title:'Private room with shared washroom', images:['https://res.cloudinary.com/db4clvkdl/image/upload/v1756136149/mudhouse-privateroom_yltcik.webp','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136146/homestay-privateroom_xlh3rc.jpg','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136146/homestay-washroom_la76wb.webp']},
+        {id:3,title:'Hostel room with shared washroom', images:['https://res.cloudinary.com/db4clvkdl/image/upload/v1756136146/kathkuni-homestay-hostel-style-room_tliien.webp','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136142/dorm-room-pahadi-basera-homestay_syuhxm.webp','https://res.cloudinary.com/db4clvkdl/image/upload/v1756136146/homestay-washroom_la76wb.webp']},
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 

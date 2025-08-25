@@ -8,7 +8,7 @@ export default function About(){
         <div className="grid grid-cols-1  md:grid-cols-2 justify-itemes-center gap-2 mt-10 mb-10">
             <div className='grid justify-items-center align-items-center'>
             <Image
-                src="/kids-enjoying-vacation-in-manali.webp"
+                src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136147/kids-enjoying-vacation-in-manali_lqyhyp.webp"
                 alt="Kids enjoying vacation in manali"
                 width={500}
                 height={600}
