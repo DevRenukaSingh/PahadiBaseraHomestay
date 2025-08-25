@@ -112,8 +112,8 @@ export const images = [
     alt: "Kids Enjoying vacation near manali in Pahadi basera",
   },
   {
-    src: "summers-in-mountainhome.webp",
-    original: `${process.env.PUBLIC_URL}/summers-in-mountainhome.webp`,
+    src: "https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp",
+    original: `https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp`,
     width: 1330,
     height:1002 ,
     alt: "Summers in a mudhouse in mountains",
