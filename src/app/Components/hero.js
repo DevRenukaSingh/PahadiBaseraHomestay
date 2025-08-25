@@ -9,7 +9,7 @@ export default function Hero(){
     return(<div className="w-full hero-bg">
         <Navbar />
         <Image
-            src="/summers-in-mountainhome.webp"
+            src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp"
             alt="summers in mountain home"
             quality={[50,75]}
             layout="fill"
