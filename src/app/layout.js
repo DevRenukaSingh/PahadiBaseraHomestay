@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
-import './app.css'
+import '../../style/globals.css'
+import '../../style/app.css'
 import Script from 'next/script';
 
 

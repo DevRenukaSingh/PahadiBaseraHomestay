@@ -1,7 +1,7 @@
 "use client"; // This is a client component
 
 import Image from 'next/image'
-import Button from '../Widgets/button';
+import Button from '../widgets/button';
 import Navbar from './navbar';
 
 export default function Hero(){
@@ -11,8 +11,9 @@ export default function Hero(){
         <Image
             src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp"
             alt="summers in mountain home"
+            width={'100'}
+            height={'100'}
             quality={[50,75]}
-            layout="fill"
             style={{ objectFit:'cover',}}
         />
         {/* <div className='overlay'/>  */}
