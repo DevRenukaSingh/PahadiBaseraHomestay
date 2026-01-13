@@ -11,10 +11,9 @@ export default function Hero(){
         <Image
             src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp"
             alt="summers in mountain home"
-            width={'100'}
-            height={'100'}
+            width={4032}
+            height={3024}
             quality={[50,75]}
-            style={{ objectFit:'cover',}}
         />
         {/* <div className='overlay'/>  */}
         <div className='overlay-content text-center'>

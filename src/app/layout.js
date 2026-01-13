@@ -2,6 +2,8 @@ import { Inter } from 'next/font/google'
 import '../../style/globals.css'
 import '../../style/app.css'
 import Script from 'next/script';
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,7 +27,10 @@ export default function RootLayout({ children }) {
         `}
       </Script>
       <body className={inter.className}>
-        {children}</body>
+        <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }
