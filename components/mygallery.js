@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import {RowsPhotoAlbum} from "react-photo-album";
+import "react-photo-album/rows.css";
 
 import { images } from "../utils/galleryImages";
 
@@ -10,12 +11,15 @@ export default function MyGallery() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div>
-      <PhotoAlbum
-        layout="rows"
+    <div className="bg-white">
+
+      <RowsPhotoAlbum
+        spacing={10}
         photos={images}
-        onClick={({ index }) => setIndex(index)}
+        targetRowHeight={200}
+        onClick={({ index: current }) => setIndex(current)}
       />
+      
       <Lightbox
         open={index >= 0}
         index={index}
