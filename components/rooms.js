@@ -12,9 +12,9 @@ export default function Rooms(){
     ];
     const [selectedRoom, setSelectedRoom]=useState(1);
 
-    return(<div className="w-full grid grid-cols-1 md:grid-cols-6 bg-white theme-text-color text-center">
+    return(<div className="w-full grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-8 bg-white theme-text-color text-center justify-evenly">
        
-        <div className='pt-10 pb-20 px-10 md:px-20 text-center md:text-left col-span-1 md:col-span-3'>
+        <div className='text-center md:text-left col-span-1 md:col-span-3 pt-10 md:pt-10 pb-4 md:pb-10 px-8 md:px-10'>
             <h2 className="text-4xl mb-5 md:mb-10 font-overpass section-heading partial-border ">Our Rooms</h2>
             <p className="text-base font-mulish ">We offer a range of room options to suit different budgets and preferences, from private rooms with mountain views to hostel rooms for budget travelers</p>
             <div className='flex flex-row md:flex-col justify-between mt-4'>
@@ -26,8 +26,8 @@ export default function Rooms(){
               ))} 
             </div>  
         </div>
-        <div className='grid justify-items-center align-items-center relative col-span-3 md:h-auto'>
-        <ImageSlider images={roomTypes[selectedRoom-1].images}/>
+        <div className='grid justify-items-center content-center relative col-span-3 md:h-auto'>
+          <ImageSlider images={roomTypes[selectedRoom-1].images}/>
         </div>
        
     </div>)
