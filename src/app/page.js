@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <About/>
       <Rooms/>
-      <Ameneties/>
+      {/* <Ameneties/> */}
       <MyGallery />
       <Contact/>
     </main>
