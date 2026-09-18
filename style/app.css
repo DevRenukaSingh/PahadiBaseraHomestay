@@ -46,6 +46,7 @@ p{
     /* background-color: rgba(95, 164, 225, .8);*/
     background-color: #353B22 !important;
     color: #fff !important;
+    padding: 12px;
 }
 .theme-btn:hover{
     background-color: #fff !important;
@@ -81,14 +82,6 @@ p{
   width: 100%;
   position: relative;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    left:0;
-    bottom: 0;
-    right: 0;
-    background-color: rgb(8 8 9 / 42%);
-}
 .hero-bg .overlay-content{
     position: absolute;
     width: 40%;
@@ -106,7 +99,7 @@ p{
     
 }
 .hero-heading{
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: 'Concert One', sans-serif;
 }
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Button from '../Widgets/button';
+import Button from '../widgets/button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons'
 import BookingForm from './bookingform';

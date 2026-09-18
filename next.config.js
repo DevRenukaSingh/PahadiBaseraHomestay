@@ -3,6 +3,7 @@ const nextConfig = {}
 
 module.exports = {
     images: {
+      qualities: [25, 50, 75,100],
       unoptimized: true, 
         remotePatterns: [
       {
