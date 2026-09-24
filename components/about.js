@@ -7,12 +7,16 @@ export default function About(){
         <p className="text-base text-center theme-text-col-lite font-semibold">Our 80-year-old homestay offers a unique blend of traditional charm and modern comforts, set amidst a picturesque apple and plum orchard</p>
         <div className="grid grid-cols-1  md:grid-cols-2 justify-itemes-center gap-2 mt-10 mb-10">
             <div className='grid justify-items-center align-items-center'>
-            <Image
+                <div className='relative w-[80vw] md:w-full aspect-[4/3] overflow-hidden'>
+                <Image
                 src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136147/kids-enjoying-vacation-in-manali_lqyhyp.webp"
                 alt="Kids enjoying vacation in manali"
-                width={500}
-                height={600}
-            />
+                fill
+                sizes="(max-width:768px): 50vw, 80vw"
+                className="object-cover"
+                />
+                </div>
+           
             </div>
            
             <div className='flex flex-col  justify-center align-items-center text-center md:text-left text-color-black w-500 ml-0 md:ml-5 mt-10 md:mt-0'>

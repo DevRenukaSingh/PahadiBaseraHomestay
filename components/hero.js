@@ -6,14 +6,15 @@ import Button from '../widgets/button';
 export default function Hero(){
 
     return(<div className="w-full hero-bg">
+        <div className="w-full max-w-2xl md:aspect-[16/9] aspect-[9/16]">
         <Image
             src="https://res.cloudinary.com/db4clvkdl/image/upload/v1756136143/summers-in-mountainhome_qlzdob.webp"
             alt="summers in mountain home"
-            width={4032}
-            height={3024}
-            quality={[50,75]}
-            style={imageStyle}
+            fill
+            className="object-cover"
         />
+        </div>
+      
         <div className='overlay-content text-center'>
             <h1 className='text-white text-3xl pb-4 hero-heading'>PAHADI BASERA HOMESTAY</h1>
             <p className='text-white text-sm pb-4 px-8 '>A peaceful mountain escape near Manali with orchard views and a warm Kathkuni welcome.</p>
@@ -23,7 +24,3 @@ export default function Hero(){
 }
 
 
-const imageStyle = {
-  width: '100vw',
-  height: '100vh',
-}
