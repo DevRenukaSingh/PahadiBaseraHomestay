@@ -11,7 +11,7 @@ export default function MyGallery() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div className="bg-white">
+    <div className="bg-white pt-10">
 
       <RowsPhotoAlbum
         spacing={10}
